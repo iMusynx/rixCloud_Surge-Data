@@ -14,6 +14,8 @@ DOMAIN-SUFFIX,news-edge.apple.com,rixCloud
 DOMAIN-SUFFIX,apple.comscoreresearch.com,rixCloud
 DOMAIN-SUFFIX,play.itunes.apple.com,rixCloud
 DOMAIN-SUFFIX,play-cdn.itunes-apple.com.akadns.net,rixCloud
+#JOOX
+USER-AGENT,WeMusic*,rixCloud
 # JD
 DOMAIN,bdsp.x.jd.com,REJECT
 DOMAIN,im-x.jd.com,REJECT
@@ -768,6 +770,7 @@ DOMAIN-SUFFIX,pinimg.com,rixCloud
 DOMAIN-SUFFIX,pinterest.com,rixCloud
 DOMAIN-SUFFIX,pinoy-n.com,rixCloud
 DOMAIN-SUFFIX,pixelqi.com,rixCloud
+DOMAIN-SUFFIX,pixiv.net,rixCloud
 DOMAIN-SUFFIX,placemix.com,rixCloud
 DOMAIN-SUFFIX,planetsuzy.org,rixCloud
 DOMAIN-SUFFIX,playboy.com,rixCloud
@@ -799,6 +802,7 @@ DOMAIN-SUFFIX,pure18.com,rixCloud
 DOMAIN-SUFFIX,pureconcepts.net,rixCloud
 DOMAIN-SUFFIX,putlocker.com,rixCloud
 DOMAIN-SUFFIX,putty.org,rixCloud
+DOMAIN-SUFFIX,pximg.net,rixCloud
 DOMAIN-SUFFIX,pypa.io,rixCloud
 DOMAIN-SUFFIX,python.com,rixCloud
 DOMAIN-SUFFIX,python.org,rixCloud
@@ -912,6 +916,7 @@ DOMAIN-SUFFIX,sstatic.net,rixCloud
 DOMAIN-SUFFIX,stackfile.com,rixCloud
 DOMAIN-SUFFIX,stackoverflow.com,rixCloud
 DOMAIN-SUFFIX,state.gov,rixCloud
+DOMAIN-SUFFIX,steamcommunity.com,rixCloud
 DOMAIN-SUFFIX,steel-storm.com,rixCloud
 DOMAIN-SUFFIX,stickam.com,rixCloud
 DOMAIN-SUFFIX,stonegames.net,rixCloud
