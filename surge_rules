@@ -33,11 +33,11 @@ DOMAIN-SUFFIX,nflximg.com,rixCloud
 DOMAIN-SUFFIX,nflximg.net,rixCloud
 DOMAIN-SUFFIX,nflxvideo.net,rixCloud\
 # AbemaTV
-USER-AGENT,AbemaTV*,MEDIA
-DOMAIN-SUFFIX,abema.io,MEDIA
-DOMAIN-SUFFIX,ameba.jp,MEDIA
-DOMAIN-SUFFIX,hayabusa.io,MEDIA
-DOMAIN,linear-abematv.akamaized.net,MEDIA
+USER-AGENT,AbemaTV*,rixCloud
+DOMAIN-SUFFIX,abema.io,rixCloud
+DOMAIN-SUFFIX,ameba.jp,rixCloud
+DOMAIN-SUFFIX,hayabusa.io,rixCloud
+DOMAIN,linear-abematv.akamaized.net,rixCloud
 # myTV Super
 DOMAIN-KEYWORD,nowtv100,rixCloud
 DOMAIN-KEYWORD,rthklive,rixCloud
