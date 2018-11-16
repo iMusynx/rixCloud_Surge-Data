@@ -31,7 +31,7 @@ DOMAIN-SUFFIX,netflix.net,rixCloud
 DOMAIN-SUFFIX,nflxext.com,rixCloud
 DOMAIN-SUFFIX,nflximg.com,rixCloud
 DOMAIN-SUFFIX,nflximg.net,rixCloud
-DOMAIN-SUFFIX,nflxvideo.net,rixCloud\
+DOMAIN-SUFFIX,nflxvideo.net,rixCloud
 # AbemaTV
 USER-AGENT,AbemaTV*,rixCloud
 DOMAIN-SUFFIX,abema.io,rixCloud
