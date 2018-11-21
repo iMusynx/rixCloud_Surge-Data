@@ -70,6 +70,7 @@ DOMAIN-SUFFIX,gvt0.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gvt1.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gvt3.com,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,google,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,gmail.com,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,blogspot,rixCloud,force-remote-dns
 # >> Facebook
 DOMAIN-SUFFIX,cdninstagram.com,rixCloud,force-remote-dns
@@ -201,7 +202,6 @@ DOMAIN-SUFFIX,deepmind.com,rixCloud
 DOMAIN-SUFFIX,firebaseio.com,rixCloud
 DOMAIN-SUFFIX,getmdl.io,rixCloud
 DOMAIN-SUFFIX,ggpht.com,rixCloud
-DOMAIN-SUFFIX,gmail.com,rixCloud
 DOMAIN-SUFFIX,gmodules.com,rixCloud
 DOMAIN-SUFFIX,godoc.org,rixCloud
 DOMAIN-SUFFIX,golang.org,rixCloud
