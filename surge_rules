@@ -426,6 +426,7 @@ DOMAIN-SUFFIX,xadchina.cn,REJECT
 DOMAIN-SUFFIX,xdrig.com,REJECT
 DOMAIN-SUFFIX,yldbt.com,REJECT
 DOMAIN-SUFFIX,ymtracking.com,REJECT
+DOMAIN-SUFFIX,appnext.com,REJECT
 DOMAIN-SUFFIX,madserving.com,REJECT
 DOMAIN-SUFFIX,i2000.xyz,REJECT
 DOMAIN-SUFFIX,ad373.com,REJECT
@@ -441,6 +442,7 @@ DOMAIN,static.jpush.cn,REJECT
 DOMAIN,stats.jpush.cn,REJECT
 DOMAIN,stats.umsns.com,REJECT
 DOMAIN,s0.2mdn.net,REJECT
+DOMAIN,appnext.hs.llnwd.net,REJECT
 DOMAIN,abema-adx.ameba.jp,REJECT
 DOMAIN,ad.12306.cn,REJECT
 DOMAIN,ad.caiyunapp.com,REJECT
