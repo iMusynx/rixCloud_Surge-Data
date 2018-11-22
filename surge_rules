@@ -263,6 +263,8 @@ DOMAIN,steamstore-a.akamaihd.net,DIRECT
 DOMAIN-SUFFIX,test-ipv6.com,DIRECT
 DOMAIN-SUFFIX,ipv6-test.com,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
+USER-AGENT,NeteaseMusic*,DIRECT
+USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*,DIRECT
 # --- End of Mainland China Available Section ---
 
 # Main Section End
