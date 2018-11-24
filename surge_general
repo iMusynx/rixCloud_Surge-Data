@@ -14,5 +14,4 @@ show-error-page-for-reject = true
 exclude-simple-hostnames = true
 
 # macOS Only
-
 enhanced-mode-by-rule = false
