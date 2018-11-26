@@ -51,6 +51,11 @@ DOMAIN,linear-abematv.akamaized.net,Stream Services
 USER-AGENT,WeMusic*,Stream Services
 USER-AGENT,JOOX*,Stream Services
 DOMAIN-SUFFIX,joox.com,Stream Services
+# >> Spotify
+USER-AGENT,Spotify*,Stream Services
+DOMAIN-SUFFIX,scdn.co,Stream Services
+DOMAIN-SUFFIX,spotify.com,Stream Services
+DOMAIN-SUFFIX,spoti.fi,Stream Services
 # --- End of Stream Service Section ---
 
 # --- Enhanced Anti-GFW ---
@@ -500,7 +505,6 @@ DOMAIN,tunion-api.m.taobao.com,REJECT
 # >> Tencent
 DOMAIN-SUFFIX,bugly.qq.com,REJECT
 DOMAIN-SUFFIX,e.qq.com,REJECT
-DOMAIN-SUFFIX,l.qq.com,REJECT
 DOMAIN-SUFFIX,rqd.qq.com,REJECT
 DOMAIN,mi.gdt.qq.com,REJECT
 DOMAIN,btrace.qq.com,REJECT
