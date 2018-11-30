@@ -41,6 +41,10 @@ DOMAIN-SUFFIX,hinet.net,Stream Services
 USER-AGENT,mytv*,Stream Services
 DOMAIN-SUFFIX,mytvsuper.com,Stream Services
 DOMAIN-SUFFIX,tvb.com,Stream Services
+# >> encoreTVB
+USER-AGENT,encoreTVB*,Stream Services
+DOMAIN,content.jwplatform.com,Stream Services
+DOMAIN,videos-f.jwpsrv.com,Stream Services
 # >> AbemaTV
 USER-AGENT,AbemaTV*,Stream Services
 DOMAIN-SUFFIX,abema.io,Stream Services
@@ -237,6 +241,7 @@ DOMAIN-SUFFIX,ytimg.com,rixCloud
 # >> Other
 DOMAIN-SUFFIX,fb.com,rixCloud
 DOMAIN-SUFFIX,bing.com,rixCloud
+DOMAIN,ccmdl.adobe.com,rixCloud
 # >> Telegram
 DOMAIN-SUFFIX,telegra.ph,rixCloud
 IP-CIDR,91.108.4.0/22,rixCloud,no-resolve
@@ -248,6 +253,8 @@ IP-CIDR,149.154.160.0/20,rixCloud,no-resolve
 
 # --- Mainland China Available --
 # >> Microsoft
+DOMAIN-SUFFIX,microsoft.com,DIRECT
+DOMAIN-SUFFIX,windows.net,DIRECT
 DOMAIN-SUFFIX,storage.live.com,DIRECT
 DOMAIN-SUFFIX,1drv.com,DIRECT
 DOMAIN,officecdn-microsoft-com.akamaized.net,DIRECT
