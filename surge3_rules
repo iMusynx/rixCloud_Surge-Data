@@ -78,6 +78,11 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/union\.click\.jd\.com\/sem.php? http://union.click.jd.com/sem.php?adblock= header
 ^https?:\/\/www.jd.com\/ https://www.jd.com/ 302
 
+# Wiki
+^https?:\/\/.+.(m\.)?wikipedia\.org/wiki http://www.wikiwand.com/en 302
+^https?:\/\/zh.(m\.)?wikipedia\.org/(zh-hans|zh-sg|zh-cn|zh(?=/)) http://www.wikiwand.com/zh 302
+^https?:\/\/zh.(m\.)?wikipedia\.org/zh-[a-zA-Z]{2,} http://www.wikiwand.com/zh-hant 302
+
 # Advertising Block
 # >> 四季線上影視4gTV
 ^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/GetAD - reject
@@ -305,6 +310,6 @@ xiaomi.com = server:119.29.29.29
 *.xiaomi.com = server:119.29.29.29
 
 [MITM]
-hostname = *.youtube.com, mp.weixin.qq.com, r.inews.qq.com, *.k.sohu.com, img.jiemian.com, www.zhihu.com, api.zhihu.com, huichuan.sm.cn, service.4gtv.tv, *.ofo.com, www.facebook.com, *.uve.weibo.com, api.weibo.cn, ios.wps.cn, *.kingsoft-office-service.com, api.xiachufang.com, mlife.cmbchina.com, m.client.10010.com, app.10086.cn, m.ibuscloud.com, smkmp.96225.com, *.iydsj.com, cdn.moji.com, *.douban.com, *.doubanio.com, iface.iqiyi.com, api.kkmh.com, api5.futunn.com, *.chelaile.net.cn, app.wy.guahao.com, client.mail.163.com, c.m.163.com, *.ydstatic.com, *.youdao.com, i.ys7.com, api.smzdm.com, static1.keepcdn.com, open.qyer.com, media.qyer.com, a.qiumibao.com, *.pstatp.com, *.snssdk.com, *.meituan.net, api.m.jd.com, ms.jr.jd.com, rtbapi.douyucdn.cn, api.jr.mi.com, capi.mwee.cn, m.yap.yahoo.com
+hostname = *.youtube.com, mp.weixin.qq.com, r.inews.qq.com, *.k.sohu.com, img.jiemian.com, www.zhihu.com, api.zhihu.com, huichuan.sm.cn, service.4gtv.tv, *.ofo.com, www.facebook.com, *.uve.weibo.com, api.weibo.cn, ios.wps.cn, *.kingsoft-office-service.com, api.xiachufang.com, mlife.cmbchina.com, m.client.10010.com, app.10086.cn, m.ibuscloud.com, smkmp.96225.com, *.iydsj.com, cdn.moji.com, *.douban.com, *.doubanio.com, iface.iqiyi.com, api.kkmh.com, api5.futunn.com, *.chelaile.net.cn, app.wy.guahao.com, client.mail.163.com, c.m.163.com, *.ydstatic.com, *.youdao.com, i.ys7.com, api.smzdm.com, static1.keepcdn.com, open.qyer.com, media.qyer.com, a.qiumibao.com, *.pstatp.com, *.snssdk.com, *.meituan.net, api.m.jd.com, ms.jr.jd.com, rtbapi.douyucdn.cn, api.jr.mi.com, capi.mwee.cn, m.yap.yahoo.com, *.wikipedia.org
 ca-passphrase = rixCloudPKI
 ca-p12 = MIIEWgIBAzCCBCAGCSqGSIb3DQEHAaCCBBEEggQNMIIECTCCAv8GCSqGSIb3DQEHBqCCAvAwggLsAgEAMIIC5QYJKoZIhvcNAQcBMBwGCiqGSIb3DQEMAQYwDgQIEbxT6Tq17dsCAggAgIICuCzGa3ovYwnv6OIzJLkSKyAFypSmJ8KTBPyai2s1heOTIf3PoC0aSml1Q0blJ2R9tAEJMS3SoM4PjNK6q6nGycAgx1dIUFEQG7DEQebVP0XHHK6uNyRPqgXPrhCXjqZSOLhpcsg4BfLRjf0S0fquZySAi7kn5IXUo1fUey2r/36UkT8imBHPsUSsllryK5dXBQAwJtPYGl7nV50F/LA58ckv5pT+gDS4vVvUAytPfoqTDPCUEMzrZkXu7ZP/6YP+DeUgLXFvEubSkmrEeztJoC2GozClPNtRHfbMzA/jTH1/lOZ1zDdvrNheDLgP8CBv/mawNy4dxrJozfOcdEiWdLAMp8PmcXvaY9sNVlYYP+ztIMA/oaIHEycsOvx1PxMU2i8s/SIZBDszdHgRqKC6fVJxcrv0qtYdUlmfGKWt85LeB7JPXlmfs6ovGrZuc9y2WNnq2cbPmZuKbdxB5j/oM8jA6fLO9Z1MZDEXo42CgU7ZONjK8/bLG5J3wlI4DnC6HYwk3hSUWRBFpjNkRlUhZZWwMsfjBmYG9/hvDF7aGCeBDwm/euWLz9lGuUqRs5F11YhRL2dhOHC2mB4fhsSGbsgOps15fsuUydheYbU12hkGfYQSNsVi0d1GiGIsdiEtrYhXAWnY6DfGPERbhYvwlPSUAvdgWltC/BYgVMM//y3PwCVhcjEfYOK6k3ZNLuIc4Nebk2FPI7u0eXCk0Pi/RiSlOiBO79B2jpEdpyQbEDYAvetEsmaU6M8SZMMHnupNET/Sy+LlpFhRDSRcQndHpBkw166rM+6H3IHewJyYZBNvesltVBuSGtmJx57QI63CgCTUiu/UmWlHKmGuK5pHbMJlkREWJnVYqT3WIoB7MCX19bhLWxfbcLO+pipr8jrrjUF0skOLwg7HxnqHDk6oLyN4eLgn3Kr70zCCAQIGCSqGSIb3DQEHAaCB9ASB8TCB7jCB6wYLKoZIhvcNAQwKAQKggbQwgbEwHAYKKoZIhvcNAQwBAzAOBAgCgEDjD1kMngICCAAEgZCwn6xW0rtwHctlMsJw20caSgWcFTLcNBTgISSri2XLMeJfvygcgFbO7/zT64stk1tVZRktjAX/fELsFp4Xw/UspdVG6CgsRE7QcY+CT8wn6dvusvU2mv3KpI7NwrXmUMsKNbW5N8Qh37WYTCg5mvA7jFAazC+RnKgoMvMVnQbuT1CMJ3in7lPIsPTW3ub0188xJTAjBgkqhkiG9w0BCRUxFgQU8ZGlcfqIeitY4nkiNU7TX5gEi6MwMTAhMAkGBSsOAwIaBQAEFCBiCE2z1g+P8yPQTFy79/Pahq/lBAixZy/UGOLmVQICCAA=
