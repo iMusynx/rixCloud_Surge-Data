@@ -147,6 +147,23 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
 ^https?:\/\/mobile-pic\.cache\.iciba\.com\/feeds_ad\/ - reject
 ^https?:\/\/.+\.kingsoft-office-service\.com\/ad - reject
+# >> 喜马拉雅
+^https?:\/\/adse.+\.com\/[a-z]{4}\/loading\?appid= - reject
+^https?:\/\/adse\.ximalaya\.com\/ting\/feed\?appid= - reject
+^https?:\/\/adse\.ximalaya\.com\/ting\/loading\?appid= - reject
+^https?:\/\/adse\.ximalaya\.com\/ting\?appid= - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group21\/M03\/E7\/3F\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group21\/M0A\/95\/3B\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group22\/M00\/92\/FF\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group22\/M05\/66\/67\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group22\/M07\/76\/54\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group23\/M01\/63\/F1\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group23\/M04\/E5\/F6\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group23\/M07\/81\/F6\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group23\/M0A\/75\/AA\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group24\/M03\/E6\/09\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group24\/M07\/C4\/3D\/ - reject
+^https?:\/\/fdfs\.xmcdn\.com\/group25\/M05\/92\/D1\/ - reject
 # >> Le
 ^https?:\/\/.+\/letv-gug\/ - reject
 # >> 漫画人
@@ -324,6 +341,6 @@ xiaomi.com = server:119.29.29.29
 *.xiaomi.com = server:119.29.29.29
 
 [MITM]
-hostname = *.youtube.com, mp.weixin.qq.com, r.inews.qq.com, *.k.sohu.com, img.jiemian.com, www.zhihu.com, api.zhihu.com, huichuan.sm.cn, service.4gtv.tv, *.ofo.com, www.facebook.com, *.uve.weibo.com, api.weibo.cn, ios.wps.cn, *.kingsoft-office-service.com, api.xiachufang.com, mlife.cmbchina.com, m.client.10010.com, app.10086.cn, m.ibuscloud.com, smkmp.96225.com, *.iydsj.com, cdn.moji.com, *.douban.com, *.doubanio.com, iface.iqiyi.com, api.kkmh.com, api5.futunn.com, *.chelaile.net.cn, app.wy.guahao.com, client.mail.163.com, c.m.163.com, *.ydstatic.com, *.youdao.com, i.ys7.com, api.smzdm.com, static1.keepcdn.com, open.qyer.com, media.qyer.com, a.qiumibao.com, *.pstatp.com, *.snssdk.com, *.meituan.net, api.m.jd.com, ms.jr.jd.com, rtbapi.douyucdn.cn, api.jr.mi.com, capi.mwee.cn, m.yap.yahoo.com, *.wikipedia.org, api.zhuishushenqi.com, mi.gdt.qq.com, gw.alicdn.comm, youtubei.googleapis.com, *.kfc.com, dspsdk.abreader.com
+hostname = *.youtube.com, mp.weixin.qq.com, r.inews.qq.com, *.k.sohu.com, img.jiemian.com, www.zhihu.com, api.zhihu.com, huichuan.sm.cn, service.4gtv.tv, *.ofo.com, www.facebook.com, *.uve.weibo.com, api.weibo.cn, ios.wps.cn, *.kingsoft-office-service.com, api.xiachufang.com, mlife.cmbchina.com, m.client.10010.com, app.10086.cn, m.ibuscloud.com, smkmp.96225.com, *.iydsj.com, cdn.moji.com, *.douban.com, *.doubanio.com, iface.iqiyi.com, api.kkmh.com, api5.futunn.com, *.chelaile.net.cn, app.wy.guahao.com, client.mail.163.com, c.m.163.com, *.ydstatic.com, *.youdao.com, i.ys7.com, api.smzdm.com, static1.keepcdn.com, open.qyer.com, media.qyer.com, a.qiumibao.com, *.pstatp.com, *.snssdk.com, *.meituan.net, api.m.jd.com, ms.jr.jd.com, rtbapi.douyucdn.cn, api.jr.mi.com, capi.mwee.cn, m.yap.yahoo.com, *.wikipedia.org, *.zhuishushenqi.com, mi.gdt.qq.com, gw.alicdn.comm, youtubei.googleapis.com, *.kfc.com, dspsdk.abreader.com, fdfs.xmcdn.com, adse.ximalaya.com
 ca-passphrase = rixCloudPKI
 ca-p12 = MIIEWgIBAzCCBCAGCSqGSIb3DQEHAaCCBBEEggQNMIIECTCCAv8GCSqGSIb3DQEHBqCCAvAwggLsAgEAMIIC5QYJKoZIhvcNAQcBMBwGCiqGSIb3DQEMAQYwDgQIEbxT6Tq17dsCAggAgIICuCzGa3ovYwnv6OIzJLkSKyAFypSmJ8KTBPyai2s1heOTIf3PoC0aSml1Q0blJ2R9tAEJMS3SoM4PjNK6q6nGycAgx1dIUFEQG7DEQebVP0XHHK6uNyRPqgXPrhCXjqZSOLhpcsg4BfLRjf0S0fquZySAi7kn5IXUo1fUey2r/36UkT8imBHPsUSsllryK5dXBQAwJtPYGl7nV50F/LA58ckv5pT+gDS4vVvUAytPfoqTDPCUEMzrZkXu7ZP/6YP+DeUgLXFvEubSkmrEeztJoC2GozClPNtRHfbMzA/jTH1/lOZ1zDdvrNheDLgP8CBv/mawNy4dxrJozfOcdEiWdLAMp8PmcXvaY9sNVlYYP+ztIMA/oaIHEycsOvx1PxMU2i8s/SIZBDszdHgRqKC6fVJxcrv0qtYdUlmfGKWt85LeB7JPXlmfs6ovGrZuc9y2WNnq2cbPmZuKbdxB5j/oM8jA6fLO9Z1MZDEXo42CgU7ZONjK8/bLG5J3wlI4DnC6HYwk3hSUWRBFpjNkRlUhZZWwMsfjBmYG9/hvDF7aGCeBDwm/euWLz9lGuUqRs5F11YhRL2dhOHC2mB4fhsSGbsgOps15fsuUydheYbU12hkGfYQSNsVi0d1GiGIsdiEtrYhXAWnY6DfGPERbhYvwlPSUAvdgWltC/BYgVMM//y3PwCVhcjEfYOK6k3ZNLuIc4Nebk2FPI7u0eXCk0Pi/RiSlOiBO79B2jpEdpyQbEDYAvetEsmaU6M8SZMMHnupNET/Sy+LlpFhRDSRcQndHpBkw166rM+6H3IHewJyYZBNvesltVBuSGtmJx57QI63CgCTUiu/UmWlHKmGuK5pHbMJlkREWJnVYqT3WIoB7MCX19bhLWxfbcLO+pipr8jrrjUF0skOLwg7HxnqHDk6oLyN4eLgn3Kr70zCCAQIGCSqGSIb3DQEHAaCB9ASB8TCB7jCB6wYLKoZIhvcNAQwKAQKggbQwgbEwHAYKKoZIhvcNAQwBAzAOBAgCgEDjD1kMngICCAAEgZCwn6xW0rtwHctlMsJw20caSgWcFTLcNBTgISSri2XLMeJfvygcgFbO7/zT64stk1tVZRktjAX/fELsFp4Xw/UspdVG6CgsRE7QcY+CT8wn6dvusvU2mv3KpI7NwrXmUMsKNbW5N8Qh37WYTCg5mvA7jFAazC+RnKgoMvMVnQbuT1CMJ3in7lPIsPTW3ub0188xJTAjBgkqhkiG9w0BCRUxFgQU8ZGlcfqIeitY4nkiNU7TX5gEi6MwMTAhMAkGBSsOAwIaBQAEFCBiCE2z1g+P8yPQTFy79/Pahq/lBAixZy/UGOLmVQICCAA=
