@@ -66,6 +66,18 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/(www.)?yuanchengxiezuo\.com\/ https://www.teamviewer.com/zhcn/ 302
 ^https?:\/\/(www.)?zbrushcn\.com\/ http://pixologic.com/ 302
 
+# JD Protection
+^https?:\/\/coupon\.m\.jd\.com\/ https://coupon.m.jd.com/ 302
+^https?:\/\/h5\.m\.jd\.com\/ https://h5.m.jd.com/ 302
+^https?:\/\/item\.m\.jd\.com\/ https://item.m.jd.com/ 302
+^https?:\/\/m\.jd\.com\/ https://m.jd.com/ 302
+^https?:\/\/newcz\.m\.jd\.com\/ https://newcz.m.jd.com/ 302
+^https?:\/\/p\.m\.jd\.com\/ https://p.m.jd.com/ 302
+^https?:\/\/so\.m\.jd\.com\/ https://so.m.jd.com/ 302
+^https?:\/\/union\.click\.jd\.com\/jda? http://union.click.jd.com/jda?adblock= header
+^https?:\/\/union\.click\.jd\.com\/sem.php? http://union.click.jd.com/sem.php?adblock= header
+^https?:\/\/www.jd.com\/ https://www.jd.com/ 302
+
 # Advertising Block
 # >> 四季線上影視4gTV
 ^https?:\/\/service\.4gtv\.tv\/4gtv\/Data\/GetAD - reject
