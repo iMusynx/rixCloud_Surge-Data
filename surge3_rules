@@ -19,8 +19,8 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/(www.)?google\.cn https://www.google.com 302
 
 # Redirect HTTP to HTTPS
-^https?:\/\/(www.)?taobao\.com\/ https://taobao.com/ 302
-^https?:\/\/(www.)?jd\.com\/ https://jd.com/ 302
+^https?:\/\/(www.)?taobao\.com\/ https://www.taobao.com/ 302
+^https?:\/\/(www.)?jd\.com\/ https://www.jd.com/ 302
 ^https?:\/\/(www.)?mi\.com\/ https://www.mi.com/ 302
 ^https?:\/\/you\.163\.com\/ https://you.163.com/ 302
 ^https?:\/\/(www.)?suning\.com/ https://suning.com/ 302
