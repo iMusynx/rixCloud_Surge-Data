@@ -138,7 +138,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/iface\.iqiyi\.com\/api\/getNewAdInfo - reject
 # >> JD
 ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start - reject
-^https?:\/\/bdsp-x\.jd\.com\/adx\/ - reject
+^https?:\/\/(bdsp-x|dsp-x)\.jd\.com\/adx\/ - reject
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/base\/na\/m\/adInfo - reject
 # >> 界面新闻
 ^https?:\/\/img\.jiemian\.com\/ads\/ - reject
@@ -196,6 +196,7 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
 ^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds - reject
 ^https?:\/\/.+\/eapi\/(ad|log)\/ - reject
+^https?:\/\/sp\.kaola\.com\/api\/openad - reject
 # >> ofo
 ^https?:\/\/supportda\.ofo\.com\/adaction\? - reject
 ^https?:\/\/ma\.ofo\.com\/ads\/ - reject
@@ -204,10 +205,14 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/cmsapi\.wifi8\.com\/v1\/emptyAd\/info - reject
 ^https?:\/\/cmsapi\.wifi8\.com\/v2\/adNew\/config - reject
 # >> 太平洋
-^https?:\/\/ivy\.pchouse\.com\.cn\/adpuba\/ - reject
 ^https?:\/\/agent-count\.pconline\.com\.cn\/counter\/adAnalyse\/ - reject
+^https?:\/\/mrobot\.pconline\.com\.cn\/v3\/ad2p - reject
+^https?:\/\/mrobot\.pconline\.com\.cn\/s\/onlineinfo\/ad\/ - reject
+^https?:\/\/mrobot\.pcauto\.com\.cn\/v3\/ad2p - reject
+^https?:\/\/mrobot\.pcauto\.com\.cn\/xsp\/s\/auto\/info\/preload\.xsp - reject
 # >> Qdaily
 ^https?:\/\/app3\.qdaily\.com\/app3\/boot_advertisements\.json - reject
+^https?:\/\/notch\.qdaily\.com\/api\/v2\/boot_ad - reject
 # >> Sohu
 ^https?:\/\/api\.k\.sohu\.com\/api\/news\/adsense - reject
 ^https?:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/ - reject
@@ -223,6 +228,12 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/r\.inews\.qq\.com\/getQQNewsRemoteConfig - reject
 # >> 富途牛牛
 ^https?:\/\/api5\.futunn\.com\/ad\/ - reject
+# >> Tencent Maps
+^https?:\/\/newsso\.map\.qq\.com\/\?&attime= - reject
+# >> Tencent QQLive
+^https?:\/\/btrace.qq.com - reject
+^https?:\/\/vv\.video\.qq\.com\/getvmind\? - reject
+^https?:\/\/.+\.mp4\?cdncode=.+&guid= - reject
 # >> Thunder
 ^https?:\/\/images\.client\.vip\.xunlei\.com\/.+\/advert\/ - reject
 # >> Weico
@@ -251,8 +262,8 @@ FINAL,rixCloud,dns-failed
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg - reject
 ^https?:\/\/dspsdk\.abreader\.com\/v2\/api\/ad\? - reject
 # >> YYeTs
-^https?:\/\/ctrl\.zmzapi\.net\/app\/ads - reject
-^https?:\/\/ctrl\.zmzapi\.net\/app\/init - reject
+^https?:\/\/ctrl\.(playcvn|zmzapi)\.net\/app\/ads - reject
+^https?:\/\/ctrl\.(playcvn|zmzapi)\.net\/app\/init - reject
 # >> 肯德基
 ^https?:\/\/res\.kfc\.com\.cn\/advertisement\/ - reject
 # >> 杭州公交
@@ -341,6 +352,6 @@ xiaomi.com = server:119.29.29.29
 *.xiaomi.com = server:119.29.29.29
 
 [MITM]
-hostname = *.youtube.com, mp.weixin.qq.com, r.inews.qq.com, *.k.sohu.com, img.jiemian.com, www.zhihu.com, api.zhihu.com, huichuan.sm.cn, service.4gtv.tv, *.ofo.com, www.facebook.com, *.uve.weibo.com, api.weibo.cn, ios.wps.cn, *.kingsoft-office-service.com, api.xiachufang.com, mlife.cmbchina.com, m.client.10010.com, app.10086.cn, m.ibuscloud.com, smkmp.96225.com, *.iydsj.com, cdn.moji.com, *.douban.com, *.doubanio.com, iface.iqiyi.com, api.kkmh.com, api5.futunn.com, *.chelaile.net.cn, app.wy.guahao.com, client.mail.163.com, c.m.163.com, *.ydstatic.com, *.youdao.com, i.ys7.com, api.smzdm.com, static1.keepcdn.com, open.qyer.com, media.qyer.com, a.qiumibao.com, *.pstatp.com, *.snssdk.com, *.meituan.net, api.m.jd.com, ms.jr.jd.com, rtbapi.douyucdn.cn, api.jr.mi.com, capi.mwee.cn, m.yap.yahoo.com, *.wikipedia.org, *.zhuishushenqi.com, mi.gdt.qq.com, gw.alicdn.comm, youtubei.googleapis.com, *.kfc.com, dspsdk.abreader.com, fdfs.xmcdn.com, adse.ximalaya.com
+hostname = *.chelaile.net.cn,*.douban.com,*.doubanio.com,*.iydsj.com,*.k.sohu.com,*.kingsoft-office-service.com,*.meituan.net,*.ofo.com,*.snssdk.com,*.uve.weibo.com,*.ydstatic.com,*.youdao.com,*.youtube.com,a.qiumibao.com,*.pstatp.com,api.jr.mi.com,api.kkmh.com,api.m.jd.com,api.smzdm.com,api.weibo.cn,api.xiachufang.com,api.zhihu.com,api5.futunn.com,app.10086.cn,app.58.com,app.wy.guahao.com,c.m.163.com,capi.mwee.cn,cdn.moji.com,client.mail.163.com,creditcard.ecitic.com,huichuan.sm.cn,i.ys7.com,iface.iqiyi.com,img.jiemian.com,ios.wps.cn,m.client.10010.com,m.creditcard.ecitic.com,m.ibuscloud.com,m.yap.yahoo.com,media.qyer.com,mlife.cmbchina.com,mob.mddcloud.com.cn,mp.weixin.qq.com,mrobot.pcauto.com.cn,mrobot.pconline.com.cn,ms.jr.jd.com,newsso.map.qq.com,open.qyer.com,r.inews.qq.com,rtbapi.douyucdn.cn,service.4gtv.tv,smkmp.96225.com,sp.kaola.com,static1.keepcdn.com,www.zhihu.com,*.rixcloudservice.com,*.wikipedia.org, *.zhuishushenqi.com, mi.gdt.qq.com, gw.alicdn.comm, youtubei.googleapis.com, *.kfc.com, dspsdk.abreader.com, fdfs.xmcdn.com, adse.ximalaya.com
 ca-passphrase = rixCloudPKI
 ca-p12 = MIIEWgIBAzCCBCAGCSqGSIb3DQEHAaCCBBEEggQNMIIECTCCAv8GCSqGSIb3DQEHBqCCAvAwggLsAgEAMIIC5QYJKoZIhvcNAQcBMBwGCiqGSIb3DQEMAQYwDgQIEbxT6Tq17dsCAggAgIICuCzGa3ovYwnv6OIzJLkSKyAFypSmJ8KTBPyai2s1heOTIf3PoC0aSml1Q0blJ2R9tAEJMS3SoM4PjNK6q6nGycAgx1dIUFEQG7DEQebVP0XHHK6uNyRPqgXPrhCXjqZSOLhpcsg4BfLRjf0S0fquZySAi7kn5IXUo1fUey2r/36UkT8imBHPsUSsllryK5dXBQAwJtPYGl7nV50F/LA58ckv5pT+gDS4vVvUAytPfoqTDPCUEMzrZkXu7ZP/6YP+DeUgLXFvEubSkmrEeztJoC2GozClPNtRHfbMzA/jTH1/lOZ1zDdvrNheDLgP8CBv/mawNy4dxrJozfOcdEiWdLAMp8PmcXvaY9sNVlYYP+ztIMA/oaIHEycsOvx1PxMU2i8s/SIZBDszdHgRqKC6fVJxcrv0qtYdUlmfGKWt85LeB7JPXlmfs6ovGrZuc9y2WNnq2cbPmZuKbdxB5j/oM8jA6fLO9Z1MZDEXo42CgU7ZONjK8/bLG5J3wlI4DnC6HYwk3hSUWRBFpjNkRlUhZZWwMsfjBmYG9/hvDF7aGCeBDwm/euWLz9lGuUqRs5F11YhRL2dhOHC2mB4fhsSGbsgOps15fsuUydheYbU12hkGfYQSNsVi0d1GiGIsdiEtrYhXAWnY6DfGPERbhYvwlPSUAvdgWltC/BYgVMM//y3PwCVhcjEfYOK6k3ZNLuIc4Nebk2FPI7u0eXCk0Pi/RiSlOiBO79B2jpEdpyQbEDYAvetEsmaU6M8SZMMHnupNET/Sy+LlpFhRDSRcQndHpBkw166rM+6H3IHewJyYZBNvesltVBuSGtmJx57QI63CgCTUiu/UmWlHKmGuK5pHbMJlkREWJnVYqT3WIoB7MCX19bhLWxfbcLO+pipr8jrrjUF0skOLwg7HxnqHDk6oLyN4eLgn3Kr70zCCAQIGCSqGSIb3DQEHAaCB9ASB8TCB7jCB6wYLKoZIhvcNAQwKAQKggbQwgbEwHAYKKoZIhvcNAQwBAzAOBAgCgEDjD1kMngICCAAEgZCwn6xW0rtwHctlMsJw20caSgWcFTLcNBTgISSri2XLMeJfvygcgFbO7/zT64stk1tVZRktjAX/fELsFp4Xw/UspdVG6CgsRE7QcY+CT8wn6dvusvU2mv3KpI7NwrXmUMsKNbW5N8Qh37WYTCg5mvA7jFAazC+RnKgoMvMVnQbuT1CMJ3in7lPIsPTW3ub0188xJTAjBgkqhkiG9w0BCRUxFgQU8ZGlcfqIeitY4nkiNU7TX5gEi6MwMTAhMAkGBSsOAwIaBQAEFCBiCE2z1g+P8yPQTFy79/Pahq/lBAixZy/UGOLmVQICCAA=
