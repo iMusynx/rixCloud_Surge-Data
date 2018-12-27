@@ -168,7 +168,13 @@ DOMAIN-SUFFIX,wsj.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,xvideos.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,yahoo.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,pinimg.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,hbg.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,avgle.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,jkforum.net,rixCloud,force-remote-dns
+DOMAIN,onedrive.live.com,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,jav,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,porn,rixCloud,force-remote-dns
 # --- End of Enhanced Anit-GFW Section ---
 
 # --- General Anti-GFW ---
@@ -249,12 +255,26 @@ IP-CIDR,91.108.8.0/22,rixCloud,no-resolve
 IP-CIDR,91.108.56.0/22,rixCloud,no-resolve
 IP-CIDR,109.239.140.0/24,rixCloud,no-resolve
 IP-CIDR,149.154.160.0/20,rixCloud,no-resolve
+# >> Google
+IP-CIDR,35.190.247.0/24
+IP-CIDR,64.233.160.0/19
+IP-CIDR,66.102.0.0/20
+IP-CIDR,66.249.80.0/20
+IP-CIDR,72.14.192.0/18
+IP-CIDR,74.125.0.0/16
+IP-CIDR,108.177.8.0/21
+IP-CIDR,172.217.0.0/16
+IP-CIDR,173.194.0.0/16
+IP-CIDR,209.85.128.0/17
+IP-CIDR,216.58.192.0/19
+IP-CIDR,216.239.32.0/19
 # --- End of General Anit-GFW Section ---
 
 # --- Mainland China Available --
 # >> Microsoft
 DOMAIN-SUFFIX,microsoft.com,DIRECT
 DOMAIN-SUFFIX,windows.net,DIRECT
+DOMAIN-SUFFIX,sfx.ms,DIRECT
 DOMAIN-SUFFIX,storage.live.com,DIRECT
 DOMAIN-SUFFIX,1drv.com,DIRECT
 DOMAIN,officecdn-microsoft-com.akamaized.net,DIRECT
@@ -272,6 +292,9 @@ DOMAIN,steamcdn-a.akamaihd.net,DIRECT
 DOMAIN,steamuserimages-a.akamaihd.net,DIRECT
 DOMAIN,steamstore-a.akamaihd.net,DIRECT
 # >> Others
+DOMAIN-SUFFIX,jd.hk,DIRECT
+DOMAIN-SUFFIX,maoyun.tv,DIRECT
+DOMAIN-SUFFIX,teamviewer.com,DIRECT
 DOMAIN-SUFFIX,test-ipv6.com,DIRECT
 DOMAIN-SUFFIX,ipv6-test.com,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
