@@ -2,12 +2,55 @@
 # Main Section: Proxy & Direct
 
 # --- Stream Service ---
-# >> YouTube
-USER-AGENT,*youtube*,Stream Services
-USER-AGENT,YouTube*,Stream Services
-DOMAIN-SUFFIX,googlevideo.com,Stream Services,force-remote-dns
-DOMAIN-SUFFIX,youtube.com,Stream Services,force-remote-dns
-DOMAIN,youtubei.googleapis.com,Stream Services,force-remote-dns
+
+# >> AbemaTV
+USER-AGENT,AbemaTV*,Stream Services
+DOMAIN-SUFFIX,abema.io,Stream Services
+DOMAIN-SUFFIX,ameba.jp,Stream Services
+DOMAIN-SUFFIX,hayabusa.io,Stream Services
+DOMAIN,linear-abematv.akamaized.net,Stream Services
+
+# >> Bahamut
+USER-AGENT,Anime*,Stream Services
+DOMAIN-SUFFIX,bahamut.com.tw,Stream Services
+DOMAIN-SUFFIX,gamer.com.tw,Stream Services
+DOMAIN-SUFFIX,hinet.net,Stream Services
+
+# >> BBC
+USER-AGENT,BBCiPlayer*,Stream Services
+DOMAIN-SUFFIX,bbc.co.uk,Stream Services,force-remote-dns
+DOMAIN-SUFFIX,bbci.co.uk,Stream Services,force-remote-dns
+DOMAIN-KEYWORD,bbcfmt,Stream Services
+DOMAIN-KEYWORD,uk-live,Stream Services
+
+# >> encoreTVB
+USER-AGENT,encoreTVB*,Stream Services
+
+# >> HBO
+USER-AGENT,HBO%20NOW*,Stream Services
+DOMAIN-SUFFIX,hbo.com,Stream Services
+DOMAIN-SUFFIX,hbogo.com,Stream Services
+
+# >> Hulu
+USER-AGENT,Hulu*,Stream Services
+DOMAIN-SUFFIX,hulu.com,Stream Services
+DOMAIN-SUFFIX,huluim.com,Stream Services
+DOMAIN-SUFFIX,happyon.jp,Stream Services
+
+# >> Jwplayer
+DOMAIN,content.jwplatform.com,Stream Services
+DOMAIN,videos-f.jwpsrv.com,Stream Services
+
+# >> JOOX
+USER-AGENT,WeMusic*,Stream Services
+USER-AGENT,JOOX*,Stream Services
+DOMAIN-SUFFIX,joox.com,Stream Services
+
+# >> myTV Super
+USER-AGENT,mytv*,Stream Services
+DOMAIN-SUFFIX,mytvsuper.com,Stream Services
+DOMAIN-SUFFIX,tvb.com,Stream Services
+
 # >> Netflix
 USER-AGENT,Argo*,Stream Services
 DOMAIN-SUFFIX,netflix.com,Stream Services
@@ -17,52 +60,24 @@ DOMAIN-SUFFIX,nflximg.com,Stream Services
 DOMAIN-SUFFIX,nflximg.net,Stream Services
 DOMAIN-SUFFIX,nflxso.net,Stream Services
 DOMAIN-SUFFIX,nflxvideo.net,Stream Services
-# >> HBO
-USER-AGENT,HBO%20NOW*,Stream Services
-DOMAIN-SUFFIX,hbo.com,Stream Services
-DOMAIN-SUFFIX,hbogo.com,Stream Services
-# >> Hulu
-USER-AGENT,Hulu*,Stream Services
-DOMAIN-SUFFIX,hulu.com,Stream Services
-DOMAIN-SUFFIX,huluim.com,Stream Services
-DOMAIN-SUFFIX,happyon.jp,Stream Services
-# >> BBC
-USER-AGENT,BBCiPlayer*,Stream Services
-DOMAIN-SUFFIX,bbc.co.uk,Stream Services,force-remote-dns
-DOMAIN-SUFFIX,bbci.co.uk,Stream Services,force-remote-dns
-DOMAIN-KEYWORD,bbcfmt,Stream Services
-DOMAIN-KEYWORD,uk-live,Stream Services
-# >> Bahamut
-USER-AGENT,Anime*,Stream Services
-DOMAIN-SUFFIX,bahamut.com.tw,Stream Services
-DOMAIN-SUFFIX,gamer.com.tw,Stream Services
-DOMAIN-SUFFIX,hinet.net,Stream Services
-# >> myTV Super
-USER-AGENT,mytv*,Stream Services
-DOMAIN-SUFFIX,mytvsuper.com,Stream Services
-DOMAIN-SUFFIX,tvb.com,Stream Services
-# >> encoreTVB
-USER-AGENT,encoreTVB*,Stream Services
-DOMAIN,content.jwplatform.com,Stream Services
-DOMAIN,videos-f.jwpsrv.com,Stream Services
-# >> AbemaTV
-USER-AGENT,AbemaTV*,Stream Services
-DOMAIN-SUFFIX,abema.io,Stream Services
-DOMAIN-SUFFIX,ameba.jp,Stream Services
-DOMAIN-SUFFIX,hayabusa.io,Stream Services
-DOMAIN,linear-abematv.akamaized.net,Stream Services
-# >> JOOX
-USER-AGENT,WeMusic*,Stream Services
-USER-AGENT,JOOX*,Stream Services
-DOMAIN-SUFFIX,joox.com,Stream Services
+
 # >> Spotify
 USER-AGENT,Spotify*,Stream Services
 DOMAIN-SUFFIX,scdn.co,Stream Services
 DOMAIN-SUFFIX,spotify.com,Stream Services
 DOMAIN-SUFFIX,spoti.fi,Stream Services
+
+# >> YouTube
+USER-AGENT,*youtube*,Stream Services
+USER-AGENT,YouTube*,Stream Services
+DOMAIN-SUFFIX,googlevideo.com,Stream Services,force-remote-dns
+DOMAIN-SUFFIX,youtube.com,Stream Services,force-remote-dns
+DOMAIN,youtubei.googleapis.com,Stream Services,force-remote-dns
+
 # --- End of Stream Service Section ---
 
 # --- Enhanced Anti-GFW ---
+
 # >> rixCloud
 DOMAIN-SUFFIX,rix.ee,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,rixcloud.com,rixCloud,force-remote-dns
@@ -71,6 +86,7 @@ DOMAIN-SUFFIX,rixcloud.io,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,rixcloud.app,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,rixcloud.ee,rixCloud,force-remote-dns
 DOMAIN,analytics.rixcloud.app,DIRECT
+
 # >> Google
 DOMAIN-SUFFIX,appspot.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,blogger.com,rixCloud,force-remote-dns
@@ -81,6 +97,7 @@ DOMAIN-SUFFIX,gvt3.com,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,google,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gmail.com,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,blogspot,rixCloud,force-remote-dns
+
 # >> Facebook
 DOMAIN-SUFFIX,cdninstagram.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,fb.me,rixCloud,force-remote-dns
@@ -92,17 +109,20 @@ DOMAIN-SUFFIX,whatsapp.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,oculus.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,oculuscdn.com,rixCloud,force-remote-dns
 DOMAIN-KEYWORD,facebook,rixCloud,force-remote-dns
+
 # >> Twitter
 DOMAIN-SUFFIX,t.co,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,twimg.co,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,twimg.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,twitpic.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,twitter.com,rixCloud,force-remote-dns
+
 # >> Line
 DOMAIN-SUFFIX,line.me,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,line-apps.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,line-scdn.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,naver.jp,rixCloud,force-remote-dns
+
 # >> Other
 DOMAIN-SUFFIX,abc.net.au,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,amazon.co.jp,rixCloud,force-remote-dns
@@ -168,10 +188,13 @@ DOMAIN-SUFFIX,wsj.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,xvideos.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,yahoo.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,pinimg.com,rixCloud,force-remote-dns
+
 DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
+
 # --- End of Enhanced Anit-GFW Section ---
 
 # --- General Anti-GFW ---
+
 # >> Apple
 DOMAIN-SUFFIX,appsto.re,rixCloud
 DOMAIN,itunes.apple.com,Apple Services
@@ -193,6 +216,7 @@ DOMAIN-SUFFIX,icloud.com,Apple Services
 DOMAIN-SUFFIX,icloud-content.com,Apple Services
 DOMAIN-SUFFIX,me.com,Apple Services
 DOMAIN-SUFFIX,mzstatic.com,Apple Services
+
 # >> Google
 DOMAIN-SUFFIX,abc.xyz,rixCloud
 DOMAIN-SUFFIX,android.com,rixCloud
@@ -238,10 +262,12 @@ DOMAIN-SUFFIX,xn--ngstr-lra8j.com,rixCloud
 DOMAIN-SUFFIX,youtu.be,rixCloud
 DOMAIN-SUFFIX,yt.be,rixCloud
 DOMAIN-SUFFIX,ytimg.com,rixCloud
+
 # >> Other
 DOMAIN-SUFFIX,fb.com,rixCloud
 DOMAIN-SUFFIX,bing.com,rixCloud
 DOMAIN,ccmdl.adobe.com,rixCloud
+
 # >> Telegram
 DOMAIN-SUFFIX,telegra.ph,rixCloud
 IP-CIDR,91.108.4.0/22,rixCloud,no-resolve
@@ -249,22 +275,29 @@ IP-CIDR,91.108.8.0/22,rixCloud,no-resolve
 IP-CIDR,91.108.56.0/22,rixCloud,no-resolve
 IP-CIDR,109.239.140.0/24,rixCloud,no-resolve
 IP-CIDR,149.154.160.0/20,rixCloud,no-resolve
+
 # --- End of General Anit-GFW Section ---
 
 # --- Mainland China Available --
+
 # >> Microsoft
 DOMAIN-SUFFIX,microsoft.com,DIRECT
 DOMAIN-SUFFIX,windows.net,DIRECT
 DOMAIN-SUFFIX,storage.live.com,DIRECT
 DOMAIN-SUFFIX,1drv.com,DIRECT
+
 DOMAIN,officecdn-microsoft-com.akamaized.net,DIRECT
+
 # >> WeChat
 USER-AGENT,MicroMessenger Client,DIRECT
 USER-AGENT,WeChat*,DIRECT
+
 # >> Blizzard
 DOMAIN-SUFFIX,blizzard.com,DIRECT
 DOMAIN-SUFFIX,battle.net,DIRECT
+
 DOMAIN,blzddist1-a.akamaihd.net,DIRECT
+
 # >> Steam Store
 DOMAIN-SUFFIX,steampowered.com,DIRECT
 DOMAIN-SUFFIX,steam-chat.com,DIRECT
