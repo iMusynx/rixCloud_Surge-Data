@@ -188,7 +188,6 @@ DOMAIN-SUFFIX,wsj.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,xvideos.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,yahoo.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,pinimg.com,rixCloud,force-remote-dns
-<<<<<<< HEAD
 
 DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
 
