@@ -454,6 +454,7 @@ DOMAIN-SUFFIX,odb.outbrain.com,REJECT
 DOMAIN-SUFFIX,offerstrack.net,REJECT
 DOMAIN-SUFFIX,omtrdc.net,REJECT
 DOMAIN-SUFFIX,outbrain.com,REJECT
+DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
 DOMAIN-SUFFIX,parsely.com,REJECT
 DOMAIN-SUFFIX,peak-adx.com,REJECT
 DOMAIN-SUFFIX,personaly.click,REJECT
