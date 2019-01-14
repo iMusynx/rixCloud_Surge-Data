@@ -454,7 +454,6 @@ DOMAIN-SUFFIX,odb.outbrain.com,REJECT
 DOMAIN-SUFFIX,offerstrack.net,REJECT
 DOMAIN-SUFFIX,omtrdc.net,REJECT
 DOMAIN-SUFFIX,outbrain.com,REJECT
-DOMAIN-SUFFIX,pagead2.googlesyndication.com,REJECT
 DOMAIN-SUFFIX,parsely.com,REJECT
 DOMAIN-SUFFIX,peak-adx.com,REJECT
 DOMAIN-SUFFIX,personaly.click,REJECT
@@ -542,8 +541,10 @@ DOMAIN,log.ys7.com,REJECT
 DOMAIN,logs.chelaile.net.cn,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
+DOMAIN,pagead2.googlesyndication.com,REJECT
 DOMAIN,report.jpush.cn,REJECT
 DOMAIN,s0.2mdn.net,REJECT
+DOMAIN,sp0.baidu.com,REJECT
 DOMAIN,static.jpush.cn,REJECT
 DOMAIN,static.vuevideo.net,REJECT
 DOMAIN,stats.jpush.cn,REJECT
@@ -557,6 +558,7 @@ DOMAIN,tracklog.58.com,REJECT
 DOMAIN,traffic.mogujie.com,REJECT
 DOMAIN,wgo.mmstat.com,REJECT
 DOMAIN,wmlog.meituan.com,REJECT
+DOMAIN,zz.bdstatic.com,REJECT
 
 # >> Alibaba
 DOMAIN,acs4baichuan.m.taobao.com,REJECT
