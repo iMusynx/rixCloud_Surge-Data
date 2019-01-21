@@ -88,27 +88,29 @@ DOMAIN-SUFFIX,rixcloud.ee,rixCloud,force-remote-dns
 DOMAIN,analytics.rixcloud.app,DIRECT
 
 # >> Google
+DOMAIN-KEYWORD,blogspot,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,google,rixCloud,force-remote-dns
+
 DOMAIN-SUFFIX,appspot.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,blogger.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,getoutline.org,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,gmail.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gvt0.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gvt1.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gvt3.com,rixCloud,force-remote-dns
-DOMAIN-KEYWORD,google,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,gmail.com,rixCloud,force-remote-dns
-DOMAIN-KEYWORD,blogspot,rixCloud,force-remote-dns
 
 # >> Facebook
+DOMAIN-KEYWORD,facebook,rixCloud,force-remote-dns
+
 DOMAIN-SUFFIX,cdninstagram.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,fb.me,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,fbcdn.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,instagram.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,messenger.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,whatsapp.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,whatsapp.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,oculus.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,oculuscdn.com,rixCloud,force-remote-dns
-DOMAIN-KEYWORD,facebook,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,whatsapp.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,whatsapp.net,rixCloud,force-remote-dns
 
 # >> Twitter
 DOMAIN-SUFFIX,t.co,rixCloud,force-remote-dns
@@ -118,17 +120,25 @@ DOMAIN-SUFFIX,twitpic.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,twitter.com,rixCloud,force-remote-dns
 
 # >> Line
-DOMAIN-SUFFIX,line.me,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,line-apps.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,line-scdn.net,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,line.me,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,naver.jp,rixCloud,force-remote-dns
 
 # >> Other
+DOMAIN,onedrive.live.com,rixCloud,force-remote-dns
+
+DOMAIN-KEYWORD,jav,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
+DOMAIN-KEYWORD,porn,rixCloud,force-remote-dns
+
 DOMAIN-SUFFIX,abc.net.au,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,amazon.co.jp,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,apk-dl.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,apkpure.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,ask.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,avgle.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,bandwagonhost.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,bbc.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,behance.net,rixCloud,force-remote-dns
@@ -147,8 +157,10 @@ DOMAIN-SUFFIX,feedly.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,flickr.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,gate.io,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,goodreads.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,hbg.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,huobi.pro,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,initiummall.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,jkforum.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,kakao.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,live.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,medium.com,rixCloud,force-remote-dns
@@ -160,6 +172,7 @@ DOMAIN-SUFFIX,nytimes.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,nytstyle.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,ok.ru,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,okex.com,rixCloud,force-remote-dns
+DOMAIN-SUFFIX,pinimg.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,pixiv.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,pornhub.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,quora.com,rixCloud,force-remote-dns
@@ -187,53 +200,41 @@ DOMAIN-SUFFIX,wsj.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,wsj.net,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,xvideos.com,rixCloud,force-remote-dns
 DOMAIN-SUFFIX,yahoo.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,pinimg.com,rixCloud,force-remote-dns
-
-<<<<<<< HEAD
-
-DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
-
-=======
-DOMAIN-SUFFIX,hbg.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,avgle.com,rixCloud,force-remote-dns
-DOMAIN-SUFFIX,jkforum.net,rixCloud,force-remote-dns
-DOMAIN,onedrive.live.com,rixCloud,force-remote-dns
-DOMAIN-KEYWORD,jav,rixCloud,force-remote-dns
-DOMAIN-KEYWORD,pinterest,rixCloud,force-remote-dns
-DOMAIN-KEYWORD,porn,rixCloud,force-remote-dns
->>>>>>> cc21ef8f209a879204f6b71ca2ad6f717a2321f1
 
 # --- End of Enhanced Anit-GFW Section ---
 
 # --- General Anti-GFW ---
 
 # >> Apple
-DOMAIN-SUFFIX,appsto.re,rixCloud
-DOMAIN,itunes.apple.com,Apple Services
-DOMAIN,books.itunes.apple.com,rixCloud
-DOMAIN,hls.itunes.apple.com,rixCloud
-DOMAIN,lookup-api.apple.com,rixCloud
-DOMAIN,api-glb-sea.smoot.apple.com,rixCloud
-DOMAIN-SUFFIX,itunes.apple.com,Apple Services
+# >Apple Services
 DOMAIN,audio-ssl.itunes.apple.com,Apple Services
 DOMAIN,gspe1-ssl.ls.apple.com,Apple Services
-USER-AGENT,AppleNews*,rixCloud
+DOMAIN,itunes.apple.com,Apple Services
 DOMAIN-SUFFIX,aaplimg.com,Apple Services
 DOMAIN-SUFFIX,apple.co,Apple Services
 DOMAIN-SUFFIX,apple.com,Apple Services
 DOMAIN-SUFFIX,appstore.com,Apple Services
 DOMAIN-SUFFIX,cdn-apple.com,Apple Services
 DOMAIN-SUFFIX,crashlytics.com,Apple Services
-DOMAIN-SUFFIX,icloud.com,Apple Services
 DOMAIN-SUFFIX,icloud-content.com,Apple Services
+DOMAIN-SUFFIX,icloud.com,Apple Services
+DOMAIN-SUFFIX,itunes.apple.com,Apple Services
 DOMAIN-SUFFIX,me.com,Apple Services
 DOMAIN-SUFFIX,mzstatic.com,Apple Services
 
+#rixCloud
+DOMAIN-SUFFIX,appsto.re,rixCloud
+DOMAIN,api-glb-sea.smoot.apple.com,rixCloud
+DOMAIN,books.itunes.apple.com,rixCloud
+DOMAIN,hls.itunes.apple.com,rixCloud
+DOMAIN,lookup-api.apple.com,rixCloud
+USER-AGENT,AppleNews*,rixCloud
+
 # >> Google
 DOMAIN-SUFFIX,abc.xyz,rixCloud
+DOMAIN-SUFFIX,admin.recaptcha.net,rixCloud
 DOMAIN-SUFFIX,android.com,rixCloud
 DOMAIN-SUFFIX,androidify.com,rixCloud
-DOMAIN-SUFFIX,dialogflow.com,rixCloud
 DOMAIN-SUFFIX,autodraw.com,rixCloud
 DOMAIN-SUFFIX,capitalg.com,rixCloud
 DOMAIN-SUFFIX,certificate-transparency.org,rixCloud
@@ -244,6 +245,7 @@ DOMAIN-SUFFIX,chromium.org,rixCloud
 DOMAIN-SUFFIX,creativelab5.com,rixCloud
 DOMAIN-SUFFIX,debug.com,rixCloud
 DOMAIN-SUFFIX,deepmind.com,rixCloud
+DOMAIN-SUFFIX,dialogflow.com,rixCloud
 DOMAIN-SUFFIX,firebaseio.com,rixCloud
 DOMAIN-SUFFIX,getmdl.io,rixCloud
 DOMAIN-SUFFIX,ggpht.com,rixCloud
@@ -257,7 +259,6 @@ DOMAIN-SUFFIX,itasoftware.com,rixCloud
 DOMAIN-SUFFIX,madewithcode.com,rixCloud
 DOMAIN-SUFFIX,material.io,rixCloud
 DOMAIN-SUFFIX,polymer-project.org,rixCloud
-DOMAIN-SUFFIX,admin.recaptcha.net,rixCloud
 DOMAIN-SUFFIX,recaptcha.net,rixCloud
 DOMAIN-SUFFIX,shattered.io,rixCloud
 DOMAIN-SUFFIX,synergyse.com,rixCloud
@@ -276,13 +277,14 @@ DOMAIN-SUFFIX,yt.be,rixCloud
 DOMAIN-SUFFIX,ytimg.com,rixCloud
 
 # >> Other
-DOMAIN-SUFFIX,fb.com,rixCloud
-DOMAIN-SUFFIX,bing.com,rixCloud
-DOMAIN-SUFFIX,newsblur.com,rixCloud
 DOMAIN,ccmdl.adobe.com,rixCloud
+DOMAIN-SUFFIX,bing.com,rixCloud
+DOMAIN-SUFFIX,fb.com,rixCloud
+DOMAIN-SUFFIX,newsblur.com,rixCloud
 
 # >> Telegram
 DOMAIN-SUFFIX,telegra.ph,rixCloud
+
 IP-CIDR,91.108.4.0/22,rixCloud,no-resolve
 IP-CIDR,91.108.8.0/22,rixCloud,no-resolve
 IP-CIDR,91.108.56.0/22,rixCloud,no-resolve
@@ -303,6 +305,8 @@ DOMAIN,officecdn-microsoft-com.akamaized.net,DIRECT
 
 DOMAIN-SUFFIX,1drv.com,DIRECT
 DOMAIN-SUFFIX,microsoft.com,DIRECT
+DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
+DOMAIN-SUFFIX,msftncsi.com,DIRECT
 DOMAIN-SUFFIX,sfx.ms,DIRECT
 DOMAIN-SUFFIX,storage.live.com,DIRECT
 DOMAIN-SUFFIX,windows.net,DIRECT
@@ -372,8 +376,10 @@ DOMAIN,log.ys7.com,REJECT
 DOMAIN,logs.chelaile.net.cn,REJECT
 DOMAIN,mopnativeadv.037201.com,REJECT
 DOMAIN,nativeadv.dftoutiao.com,REJECT
+DOMAIN,pagead2.googlesyndication.com,REJECT
 DOMAIN,report.jpush.cn,REJECT
 DOMAIN,s0.2mdn.net,REJECT
+DOMAIN,sp0.baidu.com,REJECT
 DOMAIN,static.jpush.cn,REJECT
 DOMAIN,static.vuevideo.net,REJECT
 DOMAIN,stats.jpush.cn,REJECT
@@ -387,6 +393,7 @@ DOMAIN,tracklog.58.com,REJECT
 DOMAIN,traffic.mogujie.com,REJECT
 DOMAIN,wgo.mmstat.com,REJECT
 DOMAIN,wmlog.meituan.com,REJECT
+DOMAIN,zz.bdstatic.com,REJECT
 
 DOMAIN-KEYWORD,adservice,REJECT
 
@@ -999,8 +1006,8 @@ aliyun.com = server:223.5.5.5
 *.aliyun.com = server:223.5.5.5
 weixin.com = server:119.28.28.28
 *.weixin.com = server:119.28.28.28
-bilibili = server:119.29.29.29
-*.bilibili = server:119.29.29.29
+bilibili.com = server:119.29.29.29
+*.bilibili.com = server:119.29.29.29
 163.com = server:119.29.29.29
 *.163.com = server:119.29.29.29
 126.com = server:119.29.29.29
